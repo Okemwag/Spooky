@@ -1,9 +1,12 @@
-const EmissionSummary = () => {
+import EmissionGraph from "../components/Emission/EmissionGraph";
+
+const EmissionSummaryPage = () => {
   return(
-    <div className="bg-white transition-all ease-linear">
+    <div>
       <h1>Emission Summary Page</h1>
+      <EmissionGraph />
     </div>
   )
 };
 
-export default EmissionSummary;
+export default EmissionSummaryPage;
